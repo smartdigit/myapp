@@ -1,4 +1,4 @@
 myapp
 =====
 
-test app
+it's a test app
