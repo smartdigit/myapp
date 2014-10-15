@@ -35,6 +35,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		alert("Device ready");
 		//var db = window.openDatabase("test", "1.0", "Demo DB", 200000);
 		//console.log(db);
 		//db.transaction(getFirstQuestion, errorCB);
