@@ -1,0 +1,41 @@
+Node version: v0.10.32
+
+Cordova version: 0.21.13
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<!--<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">-->
+<!--<widget id="pt.smartdigit.myapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">-->
+<widget xmlns= "http://www.w3.org/ns/widgets"
+        xmlns:gap= "http://phonegap.com/ns/1.0"
+        id = "pt.smartdigit.myapp"
+		version= "0.0.1">
+		
+    <name>MyApp</name>
+    <description>
+        My First jQuery Mobile App
+    </description>
+    <author email="pedro@smartdigit.pt" href="http://www.smartdigit.pt">
+        Pedro Lobo
+    </author>
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	
+	<preference name="phonegap-version" value="3.6.3" />
+	
+	<gap:plugin name="org.apache.cordova.camera" />
+	
+    <!--<content src="www/index.html" />-->
+    <access origin="*" />
+	
+
+</widget>
+
+
+No Plugins Currently Installed
+
+No Platforms Currently Installed
+
