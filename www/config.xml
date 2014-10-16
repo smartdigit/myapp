@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">-->
 <!--<widget id="pt.smartdigit.myapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">-->
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "pt.smartdigit.myapp"
+<widget xmlns= "http://www.w3.org/ns/widgets"
+        xmlns:gap= "http://phonegap.com/ns/1.0"
+        id = "pt.smartdigit.myapp"
 		version= "0.0.1">
+		
     <name>MyApp</name>
     <description>
         My First jQuery Mobile App
@@ -15,9 +16,11 @@
 	
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
-	<gap:plugin name="org.apache.cordova.camera" />
+	
 	
 	<preference name="phonegap-version" value="3.6.3" />
+	
+	<gap:plugin name="org.apache.cordova.camera" />
 	
     <!--<content src="www/index.html" />-->
     <access origin="*" />
