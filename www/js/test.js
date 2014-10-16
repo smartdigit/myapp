@@ -74,3 +74,30 @@ function showResults()
 	}
 	$("#answersContainer").html(answer);
 }
+
+function takePicture()
+{
+	if(!navigator.camera)
+	{
+		alert("Camera API not supported");
+		return;
+	}
+	var options = 
+	{
+		quality: 50,
+		destinationType: Camera.DestinationType.DATA_URL,
+		sourceType: 1,
+		encodingType: 0
+	};
+	navigator.camera.getPicture(
+		function(imageData)
+		{
+			$("#picture").attr("src", "data:image/jpeg;base64," + imageData);
+		},
+		function()
+		{
+			alert("Error taking picture");
+		},
+		options);
+	return false;
+}

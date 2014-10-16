@@ -34,6 +34,9 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+		$(function() {
+		FastClick.attach(document.body);
+		});
         app.receivedEvent('deviceready');
 		alert("Device ready");
 		//var db = window.openDatabase("test", "1.0", "Demo DB", 200000);

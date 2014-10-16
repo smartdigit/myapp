@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">-->
 <widget id="pt.smartdigit.myapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloWorld</name>
+    <name>MyApp</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        My First jQuery Mobile App
     </description>
     <author email="pedro@smartdigit.pt" href="http://www.smartdigit.pt">
         Pedro Lobo
     </author>
     <content src="index.html" />
     <access origin="*" />
+	<feature name="http://api.phonegap.com/1.0/camera"/>
 </widget>

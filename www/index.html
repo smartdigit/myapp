@@ -29,10 +29,12 @@
         <title>Hello World</title>
 		<script type="text/javascript" src="cordova.js"></script>
         <!--<script type="text/javascript" src="js/index.js"></script>-->
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/lib/fastclick.js"></script>
 		<script src="js/test.js"></script>
 		<script src="jQuery/jquery-1.11.1.min.js"></script>
 		<script src="jqMobile/jquery.mobile-1.4.4.min.js"></script>
-		
+		<script src="phonegap.js"></script>
     </head>
     <body>
         <!--<div class="app" data-role="page" id="derp">
@@ -74,6 +76,8 @@
 		  <div role="main" class="ui-content">
 			<a class="ui-btn " href="#QuizSelectPage">Start Quiz</a>
 		  </div>
+		  <a href="#" class="ui-btn" onclick="takePicture()">Picture</a>
+		  <img id="picture" src=""/>
 		</div>
 		<div id="QuizSelectPage" data-role="page" >
 		  <div data-role="header" data-position="fixed">
@@ -117,6 +121,6 @@
 		  </div>
 		</div>
         
-		
+
     </body>
 </html>
