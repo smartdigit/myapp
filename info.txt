@@ -23,9 +23,7 @@ Config.xml file:
 </widget>
 
 
-Plugins: 
-
-org.apache.cordova.camera
+No Plugins Currently Installed
 
 No Platforms Currently Installed
 
