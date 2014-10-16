@@ -10,5 +10,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
 	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
 </widget>
