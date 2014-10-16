@@ -17,6 +17,8 @@
 	<gap:platform name="android" />
 	<gap:plugin name="org.apache.cordova.camera" />
 	
+	<preference name="phonegap-version" value="3.6.3" />
+	
     <!--<content src="www/index.html" />-->
     <access origin="*" />
 	
