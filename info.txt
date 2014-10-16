@@ -1,0 +1,52 @@
+Node version: v0.10.32
+
+Cordova version: 0.21.13
+
+Config.xml file: 
+
+<?xml version='1.0' encoding='utf-8'?>
+<!--<widget id="com.example.hello" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">-->
+<widget id="pt.smartdigit.myapp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MyApp</name>
+    <description>
+        My First jQuery Mobile App
+    </description>
+    <author email="pedro@smartdigit.pt" href="http://www.smartdigit.pt">
+        Pedro Lobo
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+</widget>
+
+
+No Plugins Currently Installed
+
+Android platform:
+
+Available Android targets:
+----------
+id: 1 or "android-19"
+     Name: Android 4.4.2
+     Type: Platform
+     API level: 19
+     Revision: 4
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+----------
+id: 2 or "android-20"
+     Name: Android 4.4W
+     Type: Platform
+     API level: 20
+     Revision: 1
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in, AndroidWearRound, AndroidWearSquare, AndroidWearRound, AndroidWearSquare
+ Tag/ABIs : android-wear/armeabi-v7a, android-wear/x86
+----------
+id: 3 or "android-L"
+     Name: Android L (Preview)
+     Type: Platform
+     API level: L
+     Revision: 4
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+ Tag/ABIs : no ABIs.
+
