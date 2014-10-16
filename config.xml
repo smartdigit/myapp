@@ -8,7 +8,7 @@
     <author email="pedro@smartdigit.pt" href="http://www.smartdigit.pt">
         Pedro Lobo
     </author>
-    <content src="www/index.html" />
+    <content src="index.html" />
     <access origin="*" />
 	
 	<gap:platform name="ios" />
